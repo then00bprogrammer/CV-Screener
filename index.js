@@ -33,7 +33,6 @@ const data = [
     }
 ]
 
-nextCV();
 
 //CV Iterator
 function cviterator(profiles) {
@@ -45,6 +44,7 @@ function cviterator(profiles) {
     }
 }
 const candidates = cviterator(data);
+nextCV();
 
 const next= document.getElementById('next');
 next.addEventListener('click',nextCV);
